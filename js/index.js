@@ -20,10 +20,10 @@ $(document).ready(function() {
             menu: '#myMenu',
             loopBottom: true,
             anchors:['Home', 'Projects', 'Professions', 'Education','Contact Me'],
-            /*navigation: {
+            navigation: {
                 'position': 'right',
                 'tooltips': ['section1', 'section2', 'section3', 'section4','section5']
-            },*/
+            },
             onLeave: function(index, nextIndex, direction) {
                 var $pages = $('.section');
                 for (var i = 0; i < $pages.length; ++i) {
